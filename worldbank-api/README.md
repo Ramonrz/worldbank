@@ -32,7 +32,7 @@ $ cd worldbank-api
 ```
 ### Passo 3
 ```shell script
-$ cd mvn clean install
+$ mvn clean install
 ```
 ### Passo 4
 ```shell script
