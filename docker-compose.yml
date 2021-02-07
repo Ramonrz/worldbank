@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  worldbank-api:
+    build:
+      context: ./worldbank-api/
+      dockerfile: src/main/docker/Dockerfile.jvm
+    container_name: worldbank-api
+    restart: always
+    networks:
+      - net_bank
+    ports:
+      - '8080:8080'
+
+networks:
+  net_bank:
+    driver: bridge
