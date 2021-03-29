@@ -1,7 +1,9 @@
 
 # worldbank-api
 
-Projeto desenvolvido para consumir a API World Bank.
+Projeto desenvolvido para consumir a API World Bank (Desafio Entrevista).
+
+A API de indicadores do Banco Mundial fornece acesso a cerca de 16.000 indicadores de séries temporais. A maioria desses indicadores está disponível online por meio de ferramentas como o Databank e o site Open Data. A API fornece acesso programático a esses mesmos dados. Muitas séries de dados datam de mais de 50 anos e podem ser usadas para criar aplicativos interessantes.
 
 http://api.worldbank.org
 
